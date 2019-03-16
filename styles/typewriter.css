@@ -1,0 +1,48 @@
+.var-highlight {
+	color: #2CF6B3;
+}
+
+.string-highlight {
+	color: #D90368;
+}
+a.string-highlight:hover {
+	text-decoration: none;
+	color: #D90368;
+}
+
+/*.string-link {*/
+	/*text-decoration: underline;*/
+/*}*/
+
+.string-clickable {
+	font-weight: bold;
+}
+
+#typewriter {
+	font-size: 2em;
+	margin: 0;
+	font-family: "Courier New";
+	color: #F2EFEA;
+}
+#typewriter:after {
+	content: "|";
+	-webkit-animation: blink 500ms linear infinite alternate;
+	animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
