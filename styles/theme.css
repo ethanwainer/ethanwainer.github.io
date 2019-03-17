@@ -43,26 +43,25 @@ p {
 	padding-left: 15vw;
 }
 
-/*.header-link {*/
-	/*text-decoration: underline;*/
-/*}*/
-
-/*.programmerLink {*/
-	/*color: #D90368;*/
-/*}*/
-/*.entrepreneurLink {*/
-	/*color: #2CF6B3;*/
-/*}*/
-/*.cryptoLink {*/
-	/*color: #00FFF2;*/
-/*}*/
-
 #coding div h1, #coding div p {
 	color: #D90368;
 }
 
-#business div h1, #business div p, #business div h2 {
+#entrepreneurship div h1, #entrepreneurship div p, #entrepreneurship div h2 {
 	color: #2CF6B3;
+}
+
+
+p.ent-group {
+	border: none;
+}
+
+.ent-item, .ent-item a {
+	font-family: Merriweather, Serif;
+	color: #2CF6B3;
+	border: none;
+	background-color: transparent;
+	font-size: 1.25em;
 }
 
 #crypto div h1, #crypto div p {
@@ -108,3 +107,4 @@ p {
 	color: #FFF;
 	cursor: pointer;
 }
+
