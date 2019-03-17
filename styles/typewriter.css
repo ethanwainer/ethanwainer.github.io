@@ -6,13 +6,9 @@
 	color: #D90368;
 }
 a.string-highlight:hover {
-	text-decoration: none;
 	color: #D90368;
 }
 
-/*.string-link {*/
-	/*text-decoration: underline;*/
-/*}*/
 
 .string-clickable {
 	font-weight: bold;

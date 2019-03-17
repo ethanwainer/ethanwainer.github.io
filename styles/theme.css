@@ -1,5 +1,5 @@
-/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500|Open+Sans');*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 @font-face {
 	font-family: "Metropolis";
 	src: local("Metropolis"),
@@ -7,29 +7,22 @@
 	url(../fonts/Metropolis.otf);
 	font-weight: bold;
 }
-/*@font-face {*/
-	/*font-family: "Georgia";*/
-	/*src: local("Georgia"),*/
-	/*local("Georgia"),*/
-	/*url(../fonts/Georgia.ttf);*/
-	/*font-weight: bold;*/
-/*}*/
 
 .name {
 	font-family: "Metropolis", sans-serif;
 }
+
 h1 {
 	font-size: 5em;
 	font-family: "Metropolis", sans-serif;
 	color: #fff;
 }
+
 h2 {
 	font-family: "Metropolis", sans-serif;
-
 }
 
 p {
-	/* todo find font family */
 	font-family: "Georgia", serif;
 }
 
@@ -37,10 +30,6 @@ p {
 	color: #fff;
 	font-size: 1.25vw;
 	font-family: "Merriweather";
-}
-
-#home {
-	padding-left: 15vw;
 }
 
 #coding div h1, #coding div p {
@@ -51,7 +40,6 @@ p {
 	color: #2CF6B3;
 }
 
-
 p.ent-group {
 	border: none;
 }
@@ -61,25 +49,28 @@ p.ent-group {
 	color: #2CF6B3;
 	border: none;
 	background-color: transparent;
-	font-size: 1.25em;
+	font-size: 1.3em;
 }
-
+#crypto div h1 {
+	top: 43vh;
+}
 #crypto div h1, #crypto div p {
-	color: #89DAFF;
+	color: #0046FF;
 }
 
-.jumbotron {
-	border: 0;
-	border-radius: 1px;
-	text-align: center;
-	background-color: #fff;
+.block-link {
+	color: #0046FF;
+	font-size: 1.4em;
+	font-family: Merriweather;
 }
 
+.block-link:hover {
+	color: #0046FF;
+}
 
 #infoMenu li a {
 	color: #fff;
 }
-
 
 .main-scene {
 	padding: 5vw;
@@ -89,14 +80,15 @@ p.ent-group {
 #connect {
 	color: #F2EFEA;
 }
+
 .social-icon {
 	margin: 30px 30px 0 50px;
 
 }
+
 .social-icon a {
 	color: #F2EFEA !important;
 }
-
 
 #mouse {
 	position: absolute;
