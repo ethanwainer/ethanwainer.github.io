@@ -1,2 +1,3 @@
 # wainer.io
-test
+Personal website for Ethan Wainer
+Feel free to use for your own personal site
