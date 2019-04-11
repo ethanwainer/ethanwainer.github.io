@@ -97,7 +97,7 @@ p.ent-group {
 	width: 22px;
 	height: 42px;
 	bottom: 40px;
-	left: 50%;
+	left: 47.5%;
 	color: #FFF;
 	cursor: pointer;
 }
@@ -107,7 +107,5 @@ p.ent-group {
 	height: 100%;
 	position: fixed;
 	z-index: 9999;
-	padding-left: 45vw;
-	padding-top: 40vh;
 	background-color: #000022;
 }
