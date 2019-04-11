@@ -1,3 +1,6 @@
+<!--  integrate https://thirtyeightvisuals.com/blog/low-highlight-heading-links-squarespace? -->
+<!-- todo https://codepen.io/rachsmith/pen/BNKJme for "student,programmer,entrepreneurship owner, investor, etc." -->
+<!-- todo loading indicator i-->
 <!-- todo optimize for mobile -->
 <!DOCTYPE html>
 <html lang="en">
@@ -191,12 +194,10 @@
 	$(document).on("readystatechange", function(state) {
 		const readyState = document.readyState;
 		if (readyState === "interactive") {
-			console.log("still loading")
 		} else if (readyState === "complete") {
 			$("#load").fadeOut(500);
 		}
 	});
-	// $('body').fadeIn(1000).removeClass('hidden');
 </script>
 <script src="scripts/typewriter.js"></script>
 </body>
