@@ -100,3 +100,12 @@ p.ent-group {
 	cursor: pointer;
 }
 
+#load {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999;
+	padding-left: 45vw;
+	padding-top: 41vh;
+	background-color: #000022;
+}
