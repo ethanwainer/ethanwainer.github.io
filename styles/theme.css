@@ -51,9 +51,11 @@ p.ent-group {
 	background-color: transparent;
 	font-size: 1.3em;
 }
+
 #crypto div h1 {
 	top: 43vh;
 }
+
 #crypto div h1, #crypto div p {
 	color: #0046FF;
 }
@@ -106,6 +108,6 @@ p.ent-group {
 	position: fixed;
 	z-index: 9999;
 	padding-left: 45vw;
-	padding-top: 41vh;
+	padding-top: 40vh;
 	background-color: #000022;
 }
