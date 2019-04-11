@@ -23,30 +23,7 @@
 
 </head>
 <body>
-<div id="load">
-	<div class="loader loader--style5" title="4">
-		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="100px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-    			<rect x="0" y="0" width="4" height="10" fill="#fff">
-      				<animateTransform attributeType="xml"
-        				attributeName="transform" type="translate"
-        				values="0 0; 0 20; 0 0"
-        				begin="0" dur="0.6s" repeatCount="indefinite" />
-    			</rect>
-    			<rect x="10" y="0" width="4" height="10" fill="#fff">
-      				<animateTransform attributeType="xml"
-        				attributeName="transform" type="translate"
-        				values="0 0; 0 20; 0 0"
-        				begin="0.2s" dur="0.6s" repeatCount="indefinite" />
-   			</rect>
-    			<rect x="20" y="0" width="4" height="10" fill="#fff">
-      				<animateTransform attributeType="xml"
-        				attributeName="transform" type="translate"
-        				values="0 0; 0 20; 0 0"
-        				begin="0.4s" dur="0.6s" repeatCount="indefinite" />
-    			</rect>
-  		</svg>
-	</div>
-</div>
+<div id="load"></div>
 <div id="fullpage">
 	<div class="section" id="home">
 		<div class="intro container">
@@ -66,7 +43,8 @@
 				</div>
 				<div class="col text-right">
 					<h1>BIOGRAPHY</h1>
-					<p class="about">I am a programmer, entrepreneur, cryptocurrency enthusiast, student & creator.</p>
+					<p class="about">I am a programmer, entrepreneur, cryptocurrency enthusiast, student, and
+						creator.</p>
 				</div>
 			</div>
 		</div>
@@ -89,7 +67,7 @@
 	experience: [<a href="https://obsidiancapital.fund/" class="string-highlight" target="_blank">'Obsidian Capital Fund'</a>,
 		     <a href="https://jocal.io" class="string-highlight" target="_blank">'Jocalio'</a>,
 	projects:   [<a href="https://crypto.cr" class="string-highlight" target="_blank">'Crypto.cr'</a>,
-		     <span class="string-highlight">'This site :)'</span>];
+		     <a href="https://github.com/ethanwainer/ethanwainer.github.io" class="string-highlight" target="_blank">'This site :)'</a>];
 }; </pre>
 		</div>
 	</div>
@@ -103,6 +81,24 @@
 			</ul>
 		</div>
 	</div>
+
+	<!--<div class="section" id="crypto">-->
+	<!--<div class="intro container">-->
+	<!--<h1 style="position:absolute">CRYPTO.</h1>-->
+	<!--<div style="top:67vh; left:25vw; position:absolute;">-->
+	<!--<a href="" target="_blank" class="block-link">This is the first one</a>-->
+	<!--</div>-->
+	<!--<div style="top:30vh; left:30vw; position:absolute;">-->
+	<!--<a href="https://discord.gg/KqQ2R4c" target="_blank" class="block-link">Altcoin Investing Discord</a>-->
+	<!--</div>-->
+	<!--<div style="top:42vh; left:50vw; position:absolute;">-->
+	<!--<a href="" target="_blank" class="block-link">This is the third one</a>-->
+	<!--</div>-->
+	<!--<div style="top:59vh; left:42vw; position:absolute;">-->
+	<!--<a href="" target="_blank" class="block-link">This is the Fourth one</a>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
 
 	<div class="section" id="connect">
 		<div class="intro container">
@@ -128,9 +124,10 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<script
+		src="https://code.jquery.com/jquery-3.4.0.min.js"
+		integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+		crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -142,10 +139,10 @@
 <script type="text/javascript">
 	let startedTypeWriter = false;
 	const fullPage = new fullpage("#fullpage", {
-		sectionsColor: ["#000022", "#000022", "#000022", "#000022", "#000022"],
+		sectionsColor: ["#000022", "#000022", "#000022", "#000022"],
 		navigation: true,
 		navigationPosition: "right",
-		navigationTooltips: ["Home", "Coding", "Business", "Crypto", "Connect"],
+		navigationTooltips: ["Intro", "Coding", "Business", "Connect"],
 		easingcss3: "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 		loopTop: true,
 		loopBottom: true,
@@ -172,10 +169,6 @@
 					navText.css("color", "#2CF6B3");
 					break;
 				case 3:
-					navDots.css("background", "#0046FF");
-					navText.css("color", "#0046FF");
-					break;
-				case 4:
 					navDots.css("background", "#FFF");
 					navText.css("color", "#FFF");
 					break;
@@ -194,19 +187,18 @@
 	parallax.limit(30, 30);
 	parallax.scalar(10, 12)
 </script>
-<script src="scripts/typewriter.js"></script>
 <script>
-	document.onreadystatechange = function() {
-		const state = document.readyState;
-		if (state === "interactive") {
-			document.getElementById("contents").style.visibility = "hidden";
-		} else if (state === "complete") {
-			document.getElementById("interactive");
-			document.getElementById("load").style.visibility = "hidden";
-			document.getElementById("contents").style.visibility = "visible";
+	$(document).on("readystatechange", function(state) {
+		const readyState = document.readyState;
+		if (readyState === "interactive") {
+			console.log("still loading")
+		} else if (readyState === "complete") {
+			$("#load").fadeOut(500);
 		}
-	}
+	});
+	// $('body').fadeIn(1000).removeClass('hidden');
 </script>
+<script src="scripts/typewriter.js"></script>
 </body>
 </html>
 
